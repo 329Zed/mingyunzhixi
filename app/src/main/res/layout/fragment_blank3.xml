@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#E91E63"
+    tools:context=".BlankFragment3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ABD831"
+        android:backgroundTint="#3540AA">
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="159dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:background="#36C8D6"
+            android:backgroundTint="#55C137"
+            android:hapticFeedbackEnabled="false"
+            android:shadowColor="#AC2424"
+            android:text="声音"
+            android:textColor="#DF0F0F"
+            android:textColorHint="#BC2323"
+            android:textColorLink="#A51B1B"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton_jixu"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+
+            android:layout_marginTop="152dp"
+            android:src="@drawable/jixu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton_tuichu"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tuichu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_zhizuorenyuan" />
+
+        <ImageButton
+            android:id="@+id/imageButton_xinyouxi"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/xinyouxi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_jixu" />
+
+        <ImageButton
+            android:id="@+id/imageButton_zhizuorenyuan"
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/zhizuorenyuan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_xinyouxi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
